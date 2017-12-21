@@ -41,20 +41,22 @@ public class HomePage extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         buttonPlay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonPlay.png"))); // NOI18N
+        buttonPlay.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonPlay1.png"))); // NOI18N
         buttonPlay.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonPlayActionPerformed(evt);
             }
         });
-        getContentPane().add(buttonPlay, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 460, 190, -1));
+        getContentPane().add(buttonPlay, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 440, 220, 210));
 
         buttonAbout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonAbout.png"))); // NOI18N
+        buttonAbout.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonAbout1.png"))); // NOI18N
         buttonAbout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonAboutActionPerformed(evt);
             }
         });
-        getContentPane().add(buttonAbout, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 460, 190, -1));
+        getContentPane().add(buttonAbout, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 440, 210, 210));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/homePage.png"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, -1, -1));

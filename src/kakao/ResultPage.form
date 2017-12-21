@@ -57,13 +57,16 @@
           <Image iconType="3" name="/images/buttonHome.png"/>
         </Property>
         <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/images/buttonHome1.png"/>
+        </Property>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonHomeActionPerformed"/>
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="570" y="600" width="150" height="140"/>
+          <AbsoluteConstraints x="570" y="590" width="170" height="150"/>
         </Constraint>
       </Constraints>
     </Component>

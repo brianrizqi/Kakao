@@ -39,12 +39,13 @@ public class AboutPage extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         buttonBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonBack.png"))); // NOI18N
+        buttonBack.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonBack1.png"))); // NOI18N
         buttonBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonBackActionPerformed(evt);
             }
         });
-        getContentPane().add(buttonBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 450, 190, -1));
+        getContentPane().add(buttonBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 410, 260, 250));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/aboutPage.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -10, -1, -1));

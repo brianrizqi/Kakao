@@ -49,12 +49,13 @@ public class ResultPage extends javax.swing.JFrame {
 
         buttonHome.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonHome.png"))); // NOI18N
         buttonHome.setToolTipText("");
+        buttonHome.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonHome1.png"))); // NOI18N
         buttonHome.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buttonHomeActionPerformed(evt);
             }
         });
-        getContentPane().add(buttonHome, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 600, 150, 140));
+        getContentPane().add(buttonHome, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 590, 170, 150));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/resultPage.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));

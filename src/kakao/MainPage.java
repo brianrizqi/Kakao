@@ -40,15 +40,17 @@ public class MainPage extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setFont(new java.awt.Font("Roboto", 0, 53)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Roboto", 0, 36)); // NOI18N
         jLabel2.setText("Pertanyaan");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 240, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 250, -1, -1));
 
         buttonYes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonYes.png"))); // NOI18N
-        getContentPane().add(buttonYes, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 410, -1, -1));
+        buttonYes.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonYes1.png"))); // NOI18N
+        getContentPane().add(buttonYes, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 440, 190, 170));
 
         buttonNo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonNo.png"))); // NOI18N
-        getContentPane().add(buttonNo, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 410, -1, -1));
+        buttonNo.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/images/buttonNo1.png"))); // NOI18N
+        getContentPane().add(buttonNo, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 440, 190, 170));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mainPage.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, -1));
